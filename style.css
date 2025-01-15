@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr;  /*Creates 4 equal sized columns*/
+    grid-template-rows: 1fr 1fr; /*Created two equal sided rows*/
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: red;
+
+}
+
